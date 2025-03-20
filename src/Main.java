@@ -55,7 +55,7 @@ public class Main {
         System.out.println(" ");
         System.out.println("Задание 4");
         for (int i = 0; i < smollBox.length; i++) {
-            if (i % 2 == 0) {
+            if (smollBox[i] % 2 != 0) {
                 smollBox[i] += 1;
             }
         }
